@@ -1,6 +1,5 @@
 'use strict'
-
-let arr1=[1,8,15,2,5,94]
+let arr1=[1,8,89,15,2,5,94]
 let arr2=[8,6,12,16,23]
 let arr3=[24,89,93,17,100]
 const sort=(arr1,arr2,arr3)=>
