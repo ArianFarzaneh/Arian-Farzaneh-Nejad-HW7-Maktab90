@@ -1,5 +1,4 @@
 'use strict'
-'use strict'
 let salaries = {
     "John": 100,
     "Pete": 300,
