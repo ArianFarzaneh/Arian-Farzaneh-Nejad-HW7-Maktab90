@@ -8,6 +8,68 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div class="container">
+        <header class="title">Student Registeration Form</header>
+        <main class="main-form">
+            <form >
+                <div class="input-div">
+                    <label for="firstname">Firstname: </label>
+                    <input type="text" id="firstname" name="firstname" placeholder="  Firstname" required>
+                </div>
+                <div class="input-div">
+                    <label for="middlename">Middlename: </label>
+                    <input type="text" id="middlename" name="middlename" placeholder="  Middlename" required>
+                </div>
+                <div class="input-div">
+                    <label for="lastname">Lastname: </label>
+                    <input type="text" id="lastname" name="lastname" placeholder="  Lastname" required>
+                </div>
+                <div class="input-div">
+                    <label for="course">Course:</label>
+                    <select name="course" id="course">
+                        <option value="course">course</option>
+                        <option value="course2">course2</option>
+                        <option value="course3">course3</option>
+                    </select>
+                </div>
+                <div class="input-div">
+                    <label for="">Gender :</label></br>
+                        <input type="radio" name="gender" id="male" value="male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="other" value="other">
+                        <label for="other">Other</label>
+                </div>
+                <div class="input-div">
+                    <label for="tel">phone number: </label>
+                    <input type="tel" name="tel" id="tel" value="+91" required>
+                </div>
+                <div class="input-div">
+                    <input type="tel" name="phonenumber" id="phonenumber" placeholder="  phonenumber" required>
+                </div>
+                <div class="input-div">
+                    <label for="address">Current Address :</label></br>
+                    <textarea name="address" id="address" required placeholder="Current Address"></textarea>
+                </div>
+                <div class="input-div">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="  Email" required>
+                </div>
+                <div class="input-div">
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password" placeholder="  Password" required>
+                </div>
+                <div class="input-div">
+                    <label for="re-password">Re-type password: </label>
+                    <input type="password" id="re-password" name="re-password" placeholder="  Retype password" required>
+                </div>
+                <div class="input-div">
+                    <input type="submit" value="Register" id="submit">
+                </div>
+            </form>
+        </main>
+    </div>
     <script src="scripts/script.js"></script>
 </body>
 </html>
