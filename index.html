@@ -8,6 +8,120 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div class="container">
+        <header class="title">مشاهده ویدیو معرفی محصولات</header>
+        <div class="video-section">
+            <video class="flower-video" controls muted>
+                <source src="media/flower.mp4" type="video/mp4">
+                <source src="media/flower.webm" type="video/webm">
+            </video>
+        </div>
+        <div class="info-section">
+            <div>
+                <label for="model">laptop model: </label></br>
+                <select class="selects" name="model" id="model">
+                <option value="laptopModel1">laptopModel1</option>
+                <option value="laptopModel2">laptopModel2</option>
+                <option value="laptopModel3">laptopModel3</option>
+            </select>
+            </div>
+            <div>
+                <label for="processor">processor: </label></br>
+                <select class="selects" name="processor" id="processor">
+                <option value="processor1">processor1</option>
+                <option value="processor2">processor2</option>
+                <option value="processor3">processor3</option>
+            </select>
+            </div>
+            <div>
+                <label for="ram">RAM:</label></br>
+                <select class="selects" name="ram" id="ram">
+                <option value="ram1">ram1</option>
+                <option value="ram2">ram2</option>
+                <option value="ram3">ram3</option>
+            </select>
+            </div>
+            <div>
+                <label for="harddisk">HARD DISK :</label></br>
+                <select class="selects" name="harddisk" id="harddisk">
+                <option value="hardDisc1">hardDisc1</option>
+                <option value="hardDisc2">hardDisc2</option>
+                <option value="hardDisc3">hardDisc3</option>
+            </select>
+            </div>
+            <div>
+                <label for="display">display :</label></br>
+                <select class="selects" name="display" id="display">
+                <option value="display1">display1</option>
+                <option value="display2">display2</option>
+                <option value="display3">display3</option>
+            </select>
+            </div>
+        </div>
+        <div class="info-table-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>laptop model</th>
+                        <th>picture</th>
+                        <th>processor</th>
+                        <th>RAM</th>
+                        <th>HARD Disk</th>
+                        <th>Display</th>
+                        <th>graphics</th>
+                        <th>OS</th>
+                        <th>weight</th>
+                        <th>Battery</th>
+                        <th>Price</th>
+                        <th>Purchase</th>
+                    </tr>
+                </thead>    
+                <tr>
+                    <td>asus</td>
+                    <td><img src="images/download.jpg" alt="image"></td>
+                    <td>intel</td>
+                    <td>2gbDDR3</td>
+                    <td>16Gb SSD</td>
+                    <td>11.6" HD</td>
+                    <td>Intel HD</td>
+                    <td>windows 10</td>
+                    <td>2.4 pounds</td>
+                    <td>9h</td>
+                    <td>$228</td>
+                    <td><button class="purchase-button">Buy now</button></td>
+                </tr>
+                <tr>
+                    <td>acer</td>
+                    <td><img src="images/download.jpg" alt="image"></td>
+                    <td>intel</td>
+                    <td>2gbDDR3</td>
+                    <td>16Gb SSD</td>
+                    <td>11.6" HD</td>
+                    <td>Intel HD</td>
+                    <td>windows 10</td>
+                    <td>2.4 pounds</td>
+                    <td>9h</td>
+                    <td>$228</td>
+                    <td><button class="purchase-button">Buy now</button></td>
+                </tr>
+                <tr>
+                    <td>dell</td>
+                    <td><img src="images/download.jpg" alt="image"></td>
+                    <td>intel</td>
+                    <td>2gbDDR3</td>
+                    <td>16Gb SSD</td>
+                    <td>11.6" HD</td>
+                    <td>Intel HD</td>
+                    <td>windows 10</td>
+                    <td>2.4 pounds</td>
+                    <td>9h</td>
+                    <td>$228</td>
+                    <td><button class="purchase-button">Buy now</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
     <script src="scripts/script.js"></script>
 </body>
 </html>
